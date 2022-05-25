@@ -7,7 +7,7 @@ using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 
-namespace KeyOverlay
+namespace shugiiQOverlay
 {
     public class AppWindow
     {
@@ -36,7 +36,7 @@ namespace KeyOverlay
             var windowWidth = config["windowWidth"];
             var windowHeight = config["windowHeight"];
             _window = new RenderWindow(new VideoMode(uint.Parse(windowWidth!), uint.Parse(windowHeight!)),
-                "KeyOverlay", Styles.Default);
+                "shugiiQOverlay", Styles.Default);
 
             //calculate screen ratio relative to original program size for easy resizing
             _ratioX = float.Parse(windowWidth) / 480f;

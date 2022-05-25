@@ -1,10 +1,10 @@
 
-# KeyOverlay
+# shugiiQOverlay
  A simple key overlay for osu! streaming
  
- If you're interested in per key coloring and custom width for your keys please check out [Friedchiken-42's version](https://github.com/Friedchicken-42/KeyOverlay) better suited for mania.
+ If you're interested in per key coloring and custom width for your keys please check out [Friedchiken-42's version](https://github.com/Friedchicken-42/shugiiQOverlay) better suited for mania.
 To change the keys used please use config.txt
-# [Download Link](https://github.com/Blondazz/KeyOverlay/releases/tag/v1.0.2)
+# [Download Link](https://github.com/Blondazz/shugiiQOverlay/releases/tag/v1.0.2)
 IF YOU ARE HAVING PROBLEMS WITH THE PROGRAM WHEN OSU! IS ON FULLSCREEN, TRY USING GAME CAPTURE INSTEAD OF WINDOW CAPTURE IN OBS!
 
 
@@ -45,10 +45,10 @@ based on a similar app by an unknown author (if you are the author dm me so I ca
 
 ## Setup
 
-1. Unzip `KeyOverlay-ubuntu-latest.zip` into a folder.
+1. Unzip `shugiiQOverlay-ubuntu-latest.zip` into a folder.
 2. cd into the folder unzipped folder
-3. make `KeyOverlay` executable using `chmod`
-4. run `KeyOverlay` in terminal (`KeyOverlay`)
+3. make `shugiiQOverlay` executable using `chmod`
+4. run `shugiiQOverlay` in terminal (`shugiiQOverlay`)
 
 ## Note
 

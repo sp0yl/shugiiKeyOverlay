@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using SFML.Graphics;
 using SFML.Window;
 
-namespace KeyOverlay
+namespace shugiiQOverlay
 {
     public class Key
     {

@@ -3,7 +3,7 @@ using System.ComponentModel;
 using SFML.Graphics;
 using SFML.System;
 
-namespace KeyOverlay {
+namespace shugiiQOverlay {
     public static class Fading
     {
         public static List<Sprite> GetBackgroundColorFadingTexture(Color backgroundColor, uint windowWidth,

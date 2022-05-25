@@ -5,7 +5,7 @@ using System.Linq;
 using SFML.Graphics;
 using SFML.System;
 
-namespace KeyOverlay
+namespace shugiiQOverlay
 {
     public static class CreateItems
     {

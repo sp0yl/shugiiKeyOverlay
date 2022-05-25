@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace KeyOverlay
+namespace shugiiQOverlay
 {
     internal class Program
     {
