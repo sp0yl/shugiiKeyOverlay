@@ -27,6 +27,7 @@ namespace shugiiQOverlay
         private readonly bool _counter;
         private readonly List<Drawable> _staticDrawables = new();
         private readonly uint _maxFPS;
+        private readonly object _resetKey;
         private Clock _clock = new();
 
 
@@ -48,6 +49,7 @@ namespace shugiiQOverlay
             _keyBackgroundColor = CreateItems.CreateColor(config["keyColor"]);
             _barColor = CreateItems.CreateColor(config["barColor"]);
             _maxFPS = uint.Parse(config["maxFPS"]);
+            _resetKey = char.Parse(config["resetKey"]);
 
             //get background image if in config
             if (config["backgroundImage"] != "")
@@ -179,6 +181,10 @@ namespace shugiiQOverlay
         private void MoveBars(List<Key> keyList, List<RectangleShape> squareList)
         {
             var moveDist = _clock.Restart().AsSeconds() * _barSpeed;
+
+            var reset = _resetKey;
+
+            if key
 
             foreach (var key in keyList)
             {

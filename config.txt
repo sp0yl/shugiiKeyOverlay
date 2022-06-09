@@ -23,3 +23,4 @@ barColor=255,255,255,70
 fontColor= 255,255,255,255
 backgroundImage=
 maxFPS=60
+resetKey=+
